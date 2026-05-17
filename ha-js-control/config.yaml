@@ -1,0 +1,22 @@
+version: "0.0.1"
+image: ghcr.io/atraber/ha-js-control
+slug: ha-js-control
+name: ha-js-control
+description: TODO
+url: https://github.com/atraber/ha-js-control
+panel_icon: mdi:hub
+panel_title: JS Control
+homeassistant: 2026.1.0
+homeassistant_api: true
+init: false
+arch:
+  - amd64
+ingress: true
+ingress_port: 0
+map:
+  - config:rw
+options:
+  automations_dir: "/config/js-automations"
+schema:
+  automations_dir: "str"
+host_network: true
