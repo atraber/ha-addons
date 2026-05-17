@@ -1,8 +1,8 @@
-version: "0.0.2"
+name: "ha-js-control"
+description: "Write Home Assistant automations dynamically in JavaScript."
+version: "0.0.3"
 image: ghcr.io/atraber/ha-js-control
 slug: ha-js-control
-name: ha-js-control
-description: TODO
 url: https://github.com/atraber/ha-js-control
 panel_icon: mdi:hub
 panel_title: JS Control
