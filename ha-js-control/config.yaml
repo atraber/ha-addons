@@ -11,6 +11,7 @@ homeassistant_api: true
 init: false
 arch:
   - amd64
+  - aarch64
 ingress: true
 ingress_port: 0
 map:
